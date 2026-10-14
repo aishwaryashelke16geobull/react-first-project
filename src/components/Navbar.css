@@ -1,0 +1,42 @@
+.navbar {
+    position: sticky;   /* ← sticks to the top while scrolling */
+    top: 0;             /* ← stick at the very top edge */
+    z-index: 100;       /* ← stay above the cards and sections */
+  
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    padding: 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
+  .navbar-logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #4f46e5;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #4b5563;
+    padding-bottom: 4px;
+  }
+  
+  .navbar-links a:hover {
+    color: #4f46e5;
+  }
+  
+  /* React Router adds this class automatically to the current page's link */
+  .navbar-links a.active {
+    color: #4f46e5;
+    font-weight: 600;
+    border-bottom: 2px solid #4f46e5;
+  }

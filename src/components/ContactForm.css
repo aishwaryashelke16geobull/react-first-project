@@ -1,0 +1,37 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  .form-input {
+    padding: 12px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+  }
+  
+  .form-success {
+    background: #ecfdf5;
+    color: #047857;
+    border-radius: 8px;
+    padding: 12px 14px;
+  }
+  
+  .hello-text {
+    margin-top: 12px;
+    color: #4b5563;
+  }
+  .form-error {
+    background: #fef2f2;
+    color: #b91c1c;
+    border-radius: 8px;
+    padding: 10px 14px;
+  }
